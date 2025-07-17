@@ -84,7 +84,7 @@ os.environ["SUNO_USE_SMALL_MODELS"] = "1"
 executor = ThreadPoolExecutor(max_workers=5)
 bundle_dir = path.abspath(path.dirname(__file__))
 path_to_config = path.join(bundle_dir, 'config.json')
-model_path = "llama-2-7b-chat.ggmlv3.q8_0.bin"
+model_path = "/data/llama-2-7b-chat.ggmlv3.q8_0.bin"
 logo_path = path.join(bundle_dir, 'logo.png')
 
 API_KEY_NAME = "access_token"
